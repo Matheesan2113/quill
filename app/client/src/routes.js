@@ -13,7 +13,15 @@ angular.module('reg')
 
     // Set up de states
     $stateProvider
-      .state('login', {
+    //.state('landing', {
+    //  url: "/",
+    //  templateUrl: "views/landing/reset.html",
+    //  controller: 'ResetCtrl',
+    //  data: {
+    //    requireLogin: false
+    //  }
+    //})
+    .state('login', {
         url: "/login",
         templateUrl: "views/login/login.html",
         controller: 'LoginCtrl',
