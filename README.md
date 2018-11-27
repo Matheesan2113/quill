@@ -48,7 +48,7 @@ The Users tab displays a table of users where admins can:
 2. Quick-view user applications in a pop-up modal
 3. See a user’s application status (verified, submitted, admitted, and confirmed) at-a-glance
 4. See responses to other miscellaneous fields on the application
-5. Open and edit an individual application
+5. Open and edit an individual applicaftion
 6. Admit users manually
 7.  Mark users as checked-in at the event day-of
 
