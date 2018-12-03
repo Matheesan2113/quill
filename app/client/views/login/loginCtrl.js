@@ -27,6 +27,11 @@ angular.module('reg')
         $scope.error = null;
       }
 
+      $scope.clicked = function(id, name, url){
+         $scope.fun1(id);
+         $scope.fun2(name); //or whatever you need to do..
+         window.location = 'www.ryersonarvr.com'; //this will change your browser location to the one specified.
+      }
       $scope.login = function(){
         resetError();
         AuthService.loginWithPassword(
